@@ -3,10 +3,7 @@
 </script>
 
 <template>
-  <div>
-    <h1 class="text-2xl font-bold">Exchange Rate Tracker</h1>
     <ExchangeRates />
-  </div>
 </template>
 
 <style scoped>

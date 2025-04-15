@@ -32,7 +32,7 @@ const {error, isLoading, ratesOverTime} = useExchange()
         </tbody>
       </table>
     </div>
-    <div v-esle class="w-full flex justify-center p-4">
+    <div v-else class="w-full flex justify-center p-4">
       No exchange rate over time data available
     </div>
   </div>

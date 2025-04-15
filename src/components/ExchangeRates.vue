@@ -27,7 +27,7 @@ getRates(targetCurrency.value)
 </script>
 
 <template>
-  <div class="w-full mt-4 rounded-lg shadow-md">
+  <div class="w-full px-2 md:px-0 mt-4 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold py-4">Currency Exchange Rates</h2>
 
     <div class="flex gap-2 mb-4">
@@ -70,7 +70,7 @@ getRates(targetCurrency.value)
     </div>
 
     <!-- Display Exchange Rate -->
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid md:grid-cols-2 gap-4">
       <ExchangeRatesBasedEU :targetCurrency="targetCurrency" :exchangeRate="exchangeRate"/>
       <ExchangeRateOverTime :targetCurrency="targetCurrency"/>
     </div>
